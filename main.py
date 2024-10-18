@@ -299,3 +299,94 @@ import random
 
 # 12
 
+# def number_sum(a, b):
+#     print(f'{a} + {b} = {a + b}')
+#
+# def number_minus(a, b):
+#     print(f'{a} - {b} = {a - b}')
+#
+# def number_multiply(a, b):
+#     print(f'{a} * {b} = {a * b}')
+#
+# def number_divide(a, b):
+#     print(f'{a} / {b} = {a / b}')
+#
+# def rand_numbers():
+#     first = random.randrange(1, 11)
+#     second = random.randrange(1, 11)
+#     number_sum(first, second)
+#     number_minus(first, second)
+#     number_multiply(first, second)
+#     number_divide(first, second)
+#
+# rand_numbers()
+# rand_numbers()
+# rand_numbers()
+
+# 13
+
+# def list(mas):
+#     a = 0
+#     for x in mas:
+#         a = len(x)
+#         print(f'{x}, {a} raidziu kiekis')
+#
+# masyvas = ['labas', 'senokai', 'matytas', 'drauge']
+# list(masyvas)
+
+# 14
+
+# def number_list(list):
+#     for i in list:
+#         print(f'Skaicius {i}, skaiciaus kvadratas {i*i}, skaicius padalyntas pusiau {i/2}')
+#
+# list1 = [1, 4, 8, 12, 16, 20]
+# list2 = [3, 7, 11, 13, 17, 21]
+#
+# number_list(list1)
+# print('---------')
+# number_list(list2)
+
+# 15
+
+# def student_grades_info(grades, info):
+#     print(f'Studento vardas: {info}')
+#     print(f'Studento pazymiai: {grades}')
+#     count = 0
+#     sum = 0
+#     for i in grades:
+#         sum = sum + i
+#         count += 1
+#         if len(grades) == count:
+#             print(f'Vidurkis {sum / count}')
+#
+# gradelist = [7, 9, 4, 10, 10]
+# namesurname = 'Jack Sparrow'
+#
+# student_grades_info(gradelist, namesurname)
+
+# 16
+
+def sumednumbers(masyvas):
+    print(max(masyvas))
+
+def ran_num_generator(ran):
+    for i in range(0, 10):
+        i = random.randrange(0, 101)
+        ran.append(i)
+    return ran
+
+
+list1 = []
+list2 = []
+list3 = []
+
+ran_num_generator(list1)
+sumednumbers(list1)
+print(list1)
+ran_num_generator(list2)
+sumednumbers(list2)
+print(list2)
+ran_num_generator(list3)
+sumednumbers(list3)
+print(list3)

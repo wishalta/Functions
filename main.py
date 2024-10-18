@@ -139,3 +139,113 @@ import random
 #     return text
 #
 # print(senReverse('Hola'))
+
+
+# 1
+
+# def name_whypython():
+#     print('Rolandas')
+#     print('Pasirinkau, nes noriu seti gyvenima su IT')
+#
+# (name_whypython())
+# (name_whypython())
+# (name_whypython())
+
+# 2
+
+# def poetic():
+#     print('Look up…')
+#     print('From bleakening hills')
+#     print('Blows down the light, first breath')
+#     print('Of wintry wind...look up, and scent')
+#     print('The snow!')
+#
+# times = int(input('How many times: '))
+#
+# for i in range(times):
+#     poetic()
+
+# 3
+
+# def first_text():
+#     print('Just ')
+#
+# def secondd_text():
+#     print('do')
+#
+# def third_text():
+#     print('Nothing')
+#
+# first_text()
+# secondd_text()
+# third_text()
+
+# 4
+
+# def first_sentence():
+#     print('Mano vardas ')
+#
+# def second_sentence():
+#     print('Rolandas')
+#
+# def result():
+#     first_sentence()
+#     second_sentence()
+#
+# result()
+
+# 5
+
+# def random_numbers():
+#     a = random.randrange(0, 10)
+#     b = random.randrange(0, 10)
+#     print(f'{a} + {b} = {a + b}')
+#
+# random_numbers()
+# random_numbers()
+# random_numbers()
+
+# 6
+
+# def police_officer_info():
+#     name = 'John'
+#     surname = 'Fibi'
+#     age = 34
+#     income = '3000$'
+#     position = 1.0
+#     work = 'Documents'
+#
+#     print('Policininko informacija ')
+#     print(f'Vardas: {name}')
+#     print(f'Pavarde: {surname}')
+#     print(f'Amzius: {age} years old')
+#     print(f'Alga: {income}')
+#     print(f'Etatas: {position}')
+#     print(f'Specializacija: {work}')
+#
+# police_officer_info()
+
+# 7
+
+# def random_numbers():
+#     count = 0
+#     for x in range(10):
+#         x = random.randrange(0, 11)
+#         print(x)
+#         count += 1
+#         if count == 10:
+#             print(' ')
+#
+# random_numbers()
+# random_numbers()
+# random_numbers()
+
+# 8
+
+# def ran_num():
+#     num = random.randrange(0, 11)
+#     print(num)
+#
+# for i in range(10):
+#     ran_num()
+

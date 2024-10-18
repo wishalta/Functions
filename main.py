@@ -131,9 +131,11 @@ import random
 
 # 11
 
-def senReverse(x):
-    return x[::-1]
-
-sentence = input('Sakinys: ')
-sentence = senReverse(sentence)
-print(senReverse(sentence))
+# def senReverse(x):
+#     # return x[::-1]
+#     text = ""
+#     for i in x:
+#         text = i + text
+#     return text
+#
+# print(senReverse('Hola'))

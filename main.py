@@ -249,3 +249,53 @@ import random
 # for i in range(10):
 #     ran_num()
 
+# 9
+
+# def hello_name(hiname):
+#     print(f'Sveiki {hiname}')
+#
+# def goodbye_name(byename):
+#     print(f'Viso gero {byename}')
+#
+# name = input('Vardas: ')
+# hello_name(name)
+# goodbye_name(name)
+
+# 10
+
+# def numbers(first, second):
+#     if first > second:
+#         print(f'Pirmas skaicius {first} didesnis')
+#     elif second > first:
+#         print(f'Antras skaicius {second} didesnis')
+#     else:
+#         print('Abu skaiciai yra lygus')
+#
+# a = int(input('Jusu pirmas skaicius: '))
+# b = int(input('Jusu antras skaicius: '))
+#
+# numbers(a, b)
+
+# 11
+
+# testi = 'taip'
+#
+# def car_info(marke, modelis, metai, turis):
+#     print(f'Car mark: {marke}')
+#     print(f'Car model: {modelis}')
+#     print(f'Release year: {metai}')
+#     print(f'Power: {turis}')
+#
+#
+# while testi == 'taip':
+#     a = (input('Marke: '))
+#     b = (input('Modelis: '))
+#     c = int(input('Metai: '))
+#     d = (input('Turis: '))
+#     car_info(a, b, c, d)
+#     testi = (input('Tesiam (taip/ne): '))
+#     if testi == 'ne':
+#         print('Aciu')
+
+# 12
+
